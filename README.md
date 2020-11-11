@@ -12,8 +12,10 @@ Esto es una test realizado con [React Native](https://reactnative.dev/) para la 
 
 ## Project setup
 
+Este proyecto está hecho con [Expo](https://docs.expo.io/)
+
 ```markdown
-### Instal [explo-cli](https://docs.expo.io/)
+### Instal expo
 npm install --global expo-cli
 
 ### Instal dependencies
