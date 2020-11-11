@@ -1,0 +1,6 @@
+export const BLACK = '#000000'
+export const DARK = '#242424'
+export const HOVER = '#f5f8fa'
+export const PRIMARY = '#09f'
+export const SECONDARY = '#009688'
+export const WHITE = '#ffffff'
