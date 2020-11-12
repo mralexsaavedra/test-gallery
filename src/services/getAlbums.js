@@ -12,7 +12,7 @@ export default function getAlbums () {
         return {
           id,
           title,
-          photos: photos.slice(0, 8)
+          photos: photos.slice(0, 9)
         }
       }))
     })

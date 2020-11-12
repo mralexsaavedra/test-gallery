@@ -30,14 +30,14 @@ const HomeComponent = ({ navigation }) => {
     <Layout>
       <ScrollView>
         {
-          albums.map(({ id, title, photos = [] }) =>
+          albums.map(({ id, title, photos }) =>
             <Item key={id}>
               <AlbumHeader
                 title={title}
                 id={id}
                 onClick={() => handleAlbumClick({ title, id })}
               />
-              <List horizontal>
+              <List>
                 <Grid>
                   {
                   photos.map(({ id: idPhoto, url, title, thumbnailUrl }) =>

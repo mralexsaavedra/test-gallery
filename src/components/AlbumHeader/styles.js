@@ -4,9 +4,8 @@ import { Colors, Typography } from '_styles'
 export const DetailsButton = styled.TouchableOpacity`
   elevation: 8;
   background-color: ${Colors.SECONDARY};
-  border-radius: 10;
-  padding-vertical: 10;
-  padding-horizontal: 12;
+  border-radius: 10px;
+  padding: 10px 12px;
 `
 
 export const Header = styled.View`
