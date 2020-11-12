@@ -3,16 +3,17 @@ import styled from 'styled-components/native'
 export const Item = styled.View`
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 `
 
 export const List = styled.ScrollView`
-  margin: 1rem 0;
+  margin: 16px 0;
 `
 
 export const Grid = styled.View`
-  display: grid;
-  place-items: center;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 `

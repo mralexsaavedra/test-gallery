@@ -11,7 +11,7 @@ export const Container = styled.View`
 export const Header = styled.View`
   display: flex;
   flex-direction: row;
-  padding: 1rem;
+  padding: ${Typography.FONT_SIZE_MEDIUM};
 `
 
 export const Username = styled.Text`
@@ -21,11 +21,10 @@ export const Username = styled.Text`
 
 export const Image = styled.Image`
   height: 50%;
-  object-fit: cover;
   width: 100%;
 `
 
 export const Title = styled.Text`
   font-size: ${Typography.FONT_SIZE_SMALL}
-  padding: 1rem;
+  padding: ${Typography.FONT_SIZE_MEDIUM};
 `
