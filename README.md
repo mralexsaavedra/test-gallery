@@ -5,15 +5,17 @@ Esto es una test realizado con [React Native](https://reactnative.dev/) para la 
 ## Resultado
 
 <p align="center">
-  <img src="/src/assets/Home.png" alt="home" height="100px" width="100px" />
-  <img src="/src/assets/Album.png" alt="album" height="100px" width="100px" />
-  <img src="/src/assets/Photo.png" alt="photo" height="100px" width="100px" />
+  <img src="/src/assets/Home.png" alt="home" />
+  <img src="/src/assets/Album.png" alt="album" />
+  <img src="/src/assets/Photo.png" alt="photo" />
 </p>
 
 ## Project setup
 
+Este proyecto está hecho con [Expo](https://docs.expo.io/)
+
 ```markdown
-### Instal [explo-cli](https://docs.expo.io/)
+### Instal expo
 npm install --global expo-cli
 
 ### Instal dependencies
